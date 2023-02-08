@@ -35,6 +35,7 @@ class Register:
         time.sleep(3)
         driver.find_element(By.XPATH,"//strong[normalize-space()='View Cart']").click()
         driver.execute_script("window.scrollBy(0,925)", "")
+
         time.sleep(2)
         driver.find_element(By.XPATH,"//a[@class='btn btn-primary']").click()
 
